@@ -1,4 +1,3 @@
 [
     {"keys": ["ctrl+shift+g"], "command": "prompt_goto_line"},
-    // {"keys": ["ctrl+shift+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
 ]

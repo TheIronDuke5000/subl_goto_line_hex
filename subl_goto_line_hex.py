@@ -4,7 +4,7 @@ import sublime_plugin
 class PromptGotoLineCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
-        self.view.window().show_input_panel("Goto Line:", "", self.on_done, None, None)
+        self.view.window().show_input_panel("Go to line:", "", self.on_done, None, None)
         pass
 
     def on_done(self, text):

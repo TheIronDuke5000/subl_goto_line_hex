@@ -1,0 +1,35 @@
+[
+    {
+        "id": "goto",
+        "children":
+        [
+            { "command": "prompt_goto_line", "caption": "Goto Hex Line…" },
+        ]
+    },
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Goto Hex Line",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/subl_goto_line_hex/subl_goto_line_hex (Linux).sublime-keymap",
+                                    "platform": "Linux"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+]
