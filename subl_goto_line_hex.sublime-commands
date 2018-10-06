@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Prompt go to line number with hex support",
+        "command": "prompt_goto_line",
+    },
+]
